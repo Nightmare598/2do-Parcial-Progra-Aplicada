@@ -32,7 +32,7 @@ namespace PruebaUnitaria
             double Montogastado = 400;
             Company ObjetoPrueba = new Company(Nombre, Monto);
             //Actuar
-            ObjetoPrueba.Save(Montogastado);
+            ObjetoPrueba.Spend(Montogastado);
             double Montoobtenido = ObjetoPrueba.SaveProject;
             //Afirmar
             double Montoesperado = 100;

@@ -22,8 +22,9 @@ namespace Sebastian
     }
 
     public void Spend(double save)
-    {
-        _saveproject += save;  //Error: Punto y coma mal colocado
+    {   //Esta es la funcion que no esta cumpliendo su cometido
+        //Esto es debido a que existe un error de signos, se colocó + en vez de -
+        _saveproject -= save;  //Error: Punto y coma mal colocado  2do Error: Se coloco un + en vez de -
     }
     public void ChangeName(string name)
     {
